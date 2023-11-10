@@ -1,18 +1,46 @@
 .sendForm {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .textarea {
+    max-width: 976px;
+    overflow: hidden;
+    width: 100%;
+    flex-shrink: 0;
+    resize: none;
+    border-radius: 20px;
+    padding: 12px 24px; /* Внутренний отступ для предотвращения перекрытия текста плейсхолдера и введенного текста */
 
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.9;
 }
 
 .button {
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #06C;
 
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }

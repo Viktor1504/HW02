@@ -1,17 +1,21 @@
 .friendMessage {
-
+    border: 1px solid blue;
+    margin: 50px 0;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    align-items: center;
+    max-width: 527px;
 }
 
 .friendImageAndText img {
-
+    width: 48px;
+    height: 48px;
 }
 
 .friendText {
-
+    width: 527px;
 }
 
 .friendText:after {
@@ -19,7 +23,15 @@
 }
 
 .friendName {
+    width: 35px;
+    height: 20px;
 
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .friendMessageText {
