@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "homepage": "http://Viktor1504.github.io/HW02",
+  "homepage": "https://Viktor1504.github.io/HW02",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "react-scripts": "5.0.1",
     "redux": "4.2.0",
     "typescript": "4.7.4",
-    "uuid": "9.0.0",
+    "uuid": "^9.0.1",
     "web-vitals": "2.1.4"
   },
   "scripts": {

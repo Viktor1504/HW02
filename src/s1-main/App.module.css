@@ -9,10 +9,12 @@
     margin: 0 auto;
     border-top: 1px solid #D9D9D9;
     border-bottom: 1px solid #D9D9D9;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
 }
 
 .hwTitle {
-    padding: 131px 0px 10px 70px;
+    padding: 131px 0px 10px 372px;
 
     color: #000;
     font-family: Montserrat;
