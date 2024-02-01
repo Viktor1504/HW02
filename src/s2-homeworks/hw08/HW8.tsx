@@ -24,7 +24,7 @@ const initialPeople: UserType[] = [
     {_id: 2, name: 'Коля', age: 16},
     {_id: 3, name: 'Виктор', age: 44},
     {_id: 4, name: 'Дмитрий', age: 40},
-    {_id: 5, name: 'Ирина', age: 55},
+    {_id: 5, name: 'Ирина', age: 55}
 ]
 
 const HW8 = () => {
@@ -43,7 +43,7 @@ const HW8 = () => {
     const sortDown = () => {
         setPeople(
             homeWorkReducer(initialPeople, {type: 'sort', payload: 'down'})
-        ) // в обратном порядке a.name < b.name}
+        ) // в обратном порядке a.name < b.name
         setCurrentSort('down')
     }
     const check18 = () => {
