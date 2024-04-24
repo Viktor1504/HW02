@@ -19,5 +19,9 @@ html {
 }
 
 .select {
-
+    width: 171px;
+    height: 36px;
+    gap: 0px;
+    border-radius: 2px;
+    border: 1px black solid;
 }

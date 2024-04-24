@@ -1,8 +1,4 @@
-import React, {
-    SelectHTMLAttributes,
-    DetailedHTMLProps,
-    ChangeEvent,
-} from 'react'
+import React, {ChangeEvent, DetailedHTMLProps, SelectHTMLAttributes,} from 'react'
 import s from './SuperSelect.module.css'
 
 type DefaultSelectPropsType = DetailedHTMLProps<
