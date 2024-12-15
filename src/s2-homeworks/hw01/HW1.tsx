@@ -1,5 +1,5 @@
 import React from 'react'
-import Message from './message/Message'
+import {Message} from './message/Message'
 import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
@@ -49,13 +49,10 @@ const HW1 = () => {
         <div id={'hw1'}>
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
-                {/*проверка отображения (не менять)*/}
                 <div>
                     <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>
-
-                {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message}/>
             </div>
         </div>
