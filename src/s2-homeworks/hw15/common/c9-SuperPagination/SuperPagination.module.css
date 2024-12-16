@@ -1,5 +1,9 @@
 .pagination {
     display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    margin-bottom: 36px;
+    flex-direction: row; /* Элементы идут в ряд */
+    gap: 6px;
 }
 
 .text1 {

@@ -1,9 +1,9 @@
 import React from 'react'
 
 // добавить в проект иконки и импортировать
-const downIcon = '[\\/]'
-const upIcon = '[/\\]'
-const noneIcon = '[--]'
+const downIcon = '▲'
+const upIcon = '▼'
+const noneIcon = '⇕'
 
 export type SuperSortPropsType = {
     id?: string

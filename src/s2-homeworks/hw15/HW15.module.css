@@ -1,9 +1,10 @@
 .tech {
     width: 50vw;
+    /*height: 47px;*/
 }
 
 .developer {
-
+    /*height: 47px;*/
 }
 
 .techHeader {
@@ -16,12 +17,30 @@
 
 .row {
     display: flex;
+    height: 47px;
+    align-items: center;
+    border-bottom: solid 1px #E5E5E5;
 }
 
 .rowHeader {
     display: flex;
+    flex-direction: row;
+    align-items: center; /* Выравнивание по вертикали */
+
+    background: #E5E5E5;
+    height: 36px
 }
 
 .loading {
-
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;     /* Вертикальное выравнивание */
+    position: absolute;      /* Абсолютное позиционирование относительно родителя */
+    top: 0;                  /* Растягиваем по всей высоте */
+    left: 0;                 /* Растягиваем по всей ширине */
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Легкое белое затемнение */
+    backdrop-filter: blur(1px); /* Легкий размытие фона (для дополнительного эффекта) */
+    z-index: 999; /* Поверх всего */
 }
